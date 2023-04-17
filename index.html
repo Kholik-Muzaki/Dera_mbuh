@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dera || Homepage</title>
+
+    <!-- bootstraps -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">DERA || FEBBY </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Others </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#galeri">Galeri</a></li>
+                <li><a class="dropdown-item" href="#contact">Kontak</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#sosmed">Sosial Media</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- first layout -->
+    <div class="container-fluid bg-dark" style="height: auto">
+      <!-- caraousel image -->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/1.jpg" class="d-block w-100" alt="..." style="height: 500px" />
+            <div class="carousel-caption">
+              <h5>Ralph Waldo Emerson</h5>
+              <p>"Every sunset brings the promise of a new dawn."</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/2.jpg" class="d-block w-100" alt="..." style="height: 500px" />
+            <div class="carousel-caption">
+              <h5>Mahatma Gandhi</h5>
+              <p>"When I admire the wonder of a sunset or the beauty of the moon, my soul expands in worship of the Creator."</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/3.jpg" class="d-block w-100" alt="..." style="height: 500px" />
+            <div class="carousel-caption">
+              <h5>Anamika Mishra</h5>
+              <p>"Watching sunset makes you feel stronger."</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- end caraousel image -->
+
+      <!-- Gambar profil -->
+      <div class="text-center align-items-center mt-4" id="about">
+        <div class="col-12">
+          <h2 class="text-primary fw-bold mb-4">About Me</h2>
+          <img class="rounded-4" src="img/dera.jpg" alt="" style="width: 80px; height: 80px" />
+          <h5 class="mt-2 text-light">DERA FEBBY AULIYA</h5>
+          <p class="text-light">Hello, my name is Dera Febby Auliya. This site contains some upsetting things that I want to write about. so, I hope you can understand it</p>
+          <hr class="text-danger" />
+        </div>
+      </div>
+      <!-- end gambar -->
+
+      <!-- galeri -->
+      <div class="row" id="galeri">
+        <div class="col-12">
+          <h2 class="text-primary fw-bold mb-4 text-center">Gallery</h2>
+          <p class="text-light text-center">Below are some of the photos I've taken, and I call them extraordinary works</p>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="img/sky.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Sky</h5>
+              <p class="card-text">The sky never retaliated for the rain he gave. So it is with love, giving without asking, accepting without forcing.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/sun.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Sun</h5>
+              <p class="card-text">Know what you want to do, hold the thought firmly, and do every day what should be done, and every sunset will see you that much nearer to your goal.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/rainbow.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Rainbow</h5>
+              <p class="card-text">There is always darkness in life, and there is a bright side. There is always rain in life, and there is always a rainbow for people who are patient.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/sky.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Sky</h5>
+              <p class="card-text">The sky never retaliated for the rain he gave. So it is with love, giving without asking, accepting without forcing.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/sun.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Sun</h5>
+              <p class="card-text">Know what you want to do, hold the thought firmly, and do every day what should be done, and every sunset will see you that much nearer to your goal.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/rainbow.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Rainbow</h5>
+              <p class="card-text">There is always darkness in life, and there is a bright side. There is always rain in life, and there is always a rainbow for people who are patient.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="text-danger" />
+      <!-- end galeri -->
+
+      <!-- kontak -->
+      <section class="kontak" id="contact">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="text-primary fw-bold mb-4 mt-3 text-center">Contact Me</h2>
+            <p class="text-light text-center">If there are some things you want to convey to me, please send a message using the form below</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label text-light">Name : </label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Type your name here....." />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label text-light">Email : </label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Type your email here....." />
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label text-light">Telephone : </label>
+                <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Type your Telephone number here....." />
+              </div>
+              <label for="pesan" class="form-label text-light"> Message: </label>
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="type your message...." id="floatingTextarea2" style="height: 100px"></textarea>
+              </div>
+              <button type="submit" class="btn btn-light mt-2 align-content-center">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <hr class="text-danger" />
+      <!-- akhir kontak -->
+
+      <!-- footer -->
+      <footer>
+        <div class="container text-center" id="sosmed">
+          <div class="row">
+            <div class="col-sm-12">
+              <p class="text-light">&copy; copyright 2023 | Build by <a href="" class="text-decoration-none">Dera Febbi Auliya</a></p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- akhir footer -->
+    </div>
+    <!-- first layout end -->
+
+    <!--CDN JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
